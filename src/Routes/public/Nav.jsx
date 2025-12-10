@@ -1,7 +1,7 @@
 import React from 'react'
 import MainNarBar from '../../components/navbar/TopBar/MainNarBar';
 
-function LoginSign() {
+function Nav() {
   return (
     <div>
         <MainNarBar/>
@@ -9,4 +9,4 @@ function LoginSign() {
   )
 }
 
-export default LoginSign;
+export default Nav;

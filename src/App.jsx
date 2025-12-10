@@ -1,11 +1,13 @@
 import React from 'react'
 import "./App.css";
-import LoginSign from './Routes/public/LoginSign';
+import Nav from './Routes/public/Nav';
+import SignLogin from './Routes/public/SignLogin';
 function App() {
   return (
     <>
     <div className='background'>
-      <LoginSign/>
+    <Nav/>
+    <SignLogin/>
     </div>
     </>
   )

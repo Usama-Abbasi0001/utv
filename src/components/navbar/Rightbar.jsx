@@ -83,23 +83,23 @@ function Rightbar() {
         </div>
 
         {/* Profile Picture */}
-        <img
+        {/* <img
           src={picture}
           alt="Profile"
-          className="rounded-full w-10 h-10"
-        />
+          className="rounded-full w-10 h-10 hidden"
+        /> */}
       </div>
 
       {/* Small/Medium screens */}
-      <div className="flex lg:hidden items-center gap-2 relative">
+      <div className=" items-center gap-2 relative">
         <img
           src={picture}
           alt="Profile"
-          className="rounded-full w-10 h-10 cursor-pointer"
+          className="lg:flex hidden rounded-full w-10 h-10 cursor-pointer ms-5"
           onClick={toggleDropdown}
         />
         <span
-          className="font-medium text-gray-800 cursor-pointer"
+          className="font-medium text-gray-800 cursor-pointer lg:hidden flex"
           onClick={toggleDropdown}
         >
           <MenuBar/>
@@ -107,7 +107,8 @@ function Rightbar() {
 
         {/* Dropdown menu */}
         {showDropdown && (
-          <div className="absolute top-12 right-0 w-56 bg-white shadow-lg rounded-md p-3 flex flex-col gap-3 z-50">
+          <div className="absolute top-12 right-0 w-56 bg-black/40 backdrop-blur-md shadow-lg rounded-md p-3 flex flex-col gap-3 z-50">
+
             {/* Search */}
             <div className="relative flex">
               {showSearch ? (

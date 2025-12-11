@@ -3,10 +3,10 @@ import Leftbar from '../Leftbar';
 import Centerbar from '../Centerbar';
 import Rightbar from '../Rightbar';
 
-function MainNarBar() {
+function MainNavBar() {
   return (
     <>
-    <div className='flex justify-between md:px-10 ps-5 py-5 items-center'>
+    <div className='cantainer flex justify-between md:px-10 ps-5 py-5 items-center'>
         <Leftbar/>
         <Centerbar/>
         <Rightbar/>
@@ -15,4 +15,4 @@ function MainNarBar() {
   )
 }
 
-export default MainNarBar;
+export default MainNavBar;

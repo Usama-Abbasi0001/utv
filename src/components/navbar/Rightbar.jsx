@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Cross, MenuBar, Search } from '../../utils/Icons';
-import picture from '../../images/usam.jpg';
+import picture from '../../images/usma.jpg';
 
 function Rightbar() {
   const [showSearch, setShowSearch] = useState(false);

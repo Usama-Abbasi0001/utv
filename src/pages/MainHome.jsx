@@ -23,6 +23,9 @@ import move14 from '../images/move14.png'
 import move15 from '../images/move15.png'
 import move16 from '../images/move16.png'
 import Channels from '../components/home/Channels'
+import Join from '../components/home/Join'
+import UtvFAQ from '../components/home/UtvFAQ'
+import Footer from '../components/home/Footer'
 
 function MainHome() {
   // Separate refs for each scroller
@@ -162,6 +165,9 @@ function MainHome() {
         </div>
       </div>
       <Channels/>
+      <Join/>
+      <UtvFAQ/>
+      <Footer/>
     </>
   )
 }

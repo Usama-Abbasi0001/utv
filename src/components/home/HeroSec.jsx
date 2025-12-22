@@ -3,7 +3,7 @@ import tv from '../../images/tvs.png'
 function HeroSec() {
   return (
     <>
-    <div className='container md:mt-10 mt-0 flex md:flex-row flex-col lg:px-20 md:px-16 md:justify-between px-10'>
+    <div className='container mx-auto md:mt-10 mt-0 flex md:flex-row flex-col lg:px-16 md:px-16 md:justify-between  px-10'>
         <div className='flex flex-col md:text-start text-center jmd:ustify-start justify-center md:items-start items-center'>
 <p className='bg-[#401e6457] p-1 w-[150px] rounded-[10%]'>
   <span className="font-bold  text-white px-2 rounded">

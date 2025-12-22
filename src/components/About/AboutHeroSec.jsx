@@ -4,7 +4,7 @@ import '../About/About.css';
 function AboutHeroSec() {
   return (
     <div className="lg:w-[1120px]  mx-auto mt-6 sm:mt-10 px-4">
-      <div className="background flex flex-col p-5 sm:p-8 lg:p-10 justify-center items-center text-center rounded-xl">
+      <div className="back flex flex-col p-5 sm:p-8 lg:p-10 justify-center items-center text-center rounded-xl">
         
         <span className="font-bold text-2xl sm:text-4xl lg:text-[50px]">
           About Us

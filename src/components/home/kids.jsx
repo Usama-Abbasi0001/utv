@@ -1,6 +1,21 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
 function kids(props) {
+   const navigate = useNavigate()
+
+  const handleClick = () => {
+    navigate("/videoplaying", {
+      state: {
+        mainImage: props.mainImage,
+        avatar: props.avatar,
+        title: props.title,
+        author: props.author,
+        views: props.views,
+        time: props.time,
+      }
+    })
+  }
  return (
     <div
       className="
@@ -9,6 +24,7 @@ function kids(props) {
         md:min-w-[48%]     /* tablet: 2 cards */
         lg:min-w-[260px]   /* desktop: 4 cards */
       "
+       onClick={handleClick}
     >
       <div className="mt-0">
         {/* Main Image */}

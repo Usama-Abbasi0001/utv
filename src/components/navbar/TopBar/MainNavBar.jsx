@@ -6,7 +6,7 @@ import Rightbar from '../Rightbar';
 function MainNavBar() {
   return (
     <>
-    <div className='container flex justify-between md:px-10 ps-5 py-5 items-center'>
+    <div className=' flex justify-between md:px-14 py-5 items-center lg:w-[1400px] mx-auto'>
         <Leftbar/>
         <Centerbar/>
         <Rightbar/>

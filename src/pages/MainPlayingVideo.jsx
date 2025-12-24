@@ -28,9 +28,9 @@ function MainPlayingVideo() {
       <Banner/>
       <div className='  w-[340px]
           md:w-[650px]
-          lg:w-[1280px]
+          lg:w-[1100px]
           mx-auto
-          flex space-x-10
+          flex space-x-5
           border-2 border-red-800
           mt-10'>
         <div><PlayList/></div>
@@ -55,7 +55,6 @@ function MainPlayingVideo() {
           <MostViewed mainImage={move14} avatar={move14} title="lorem lipsum" author="Ahad" views="3.9 million views" time="4 hours ago" />
           <MostViewed mainImage={move15} avatar={move15} title="lorem lipsum" author="Ahad" views="3.9 million views" time="4 hours ago" />
             </div>
-   
       </div>
     </>
   )

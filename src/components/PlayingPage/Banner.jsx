@@ -8,7 +8,7 @@ function Banner() {
         bg-white
           w-[340px]
           md:w-[650px]
-          lg:w-[1280px]
+          lg:w-[1100px]
           mx-auto
           flex md:md-0 mt-5
           items-center

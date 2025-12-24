@@ -34,7 +34,7 @@ function MostViewed(props) {
         <img
           src={props.mainImage}
           alt=""
-          className="w-[250px] h-[150px]  rounded-[6px]"
+          className="w-[230px] h-[150px]  rounded-[6px]"
         />
 
         {/* Info */}

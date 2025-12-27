@@ -1,0 +1,30 @@
+/* Hide scrollbar by default */
+.scrollbar-hidden {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE & Edge */
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
+/* Custom colorful scrollbar on hover */
+.scrollbar-colorful:hover {
+  scrollbar-width: thin;
+  scrollbar-color: #6b7280 #d1d5db; /* thumb color / track color (gray shades) */
+}
+
+.scrollbar-colorful::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scrollbar-colorful::-webkit-scrollbar-track {
+  background: #d1d5db; /* light gray */
+  border-radius: 9999px;
+}
+
+.scrollbar-colorful::-webkit-scrollbar-thumb {
+  background-color: #6b7280; /* gray thumb */
+  border-radius: 9999px;
+  border: 2px solid #d1d5db;
+}
